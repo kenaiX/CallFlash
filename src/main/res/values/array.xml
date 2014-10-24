@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="callflash_speed_context">
+        <item>普通</item>
+        <item>慢速</item>
+        <item>快速</item>
+    </string-array>
+
+    <string-array name="callflash_speed_value">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="zhichi_downloadapp">推荐应用</string>
+    <string name="zhichi_downloadapp_fun">推荐游戏</string>
+    <string name="zhichi_downloadapp_summary">点击进入精品应用推荐，您的下载是对kenai最好的支持！</string>
+    <string name="zhichi_pingfen">评分kenai</string>
+    <string name="zhichi_app">kenai软件</string>
+
+</resources>

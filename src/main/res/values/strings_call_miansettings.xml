@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="main_info_summary">kenai出品 ： 1.0 后续版本将有更多功能</string>
+
+    <string name="call_"></string>
+    <string name="call_mainsetting">核心设置</string>
+    <string name="call_secondsetting">细节设置</string>
+    <string name="call_other">其它</string>
+    <string name="main_melody">旗舰版本</string>
+    <string name="call_mainhelp">使用帮助</string>
+    <string name="call_mainhelp_value">来电闪光：\n在来电话时闪烁手机闪光灯的个性功能\n静音模式下闪光功能会智能关闭\n--- --- ---</string>
+    <string name="main_zhichikenai">kenai软件</string>
+    <string name="main_zhichikenai_summary">kenai的成长离不开您的支持！</string>
+    <string name="main_info">版本信息</string>
+    <string name="main_mail">联系作者</string>
+
+    <string name="call_service_mode">服务开关</string>
+    <string name="call_callflash_mode">来电闪光</string>
+    <string name="callflash_mode_summary">静音时来电闪光自动停止</string>
+    <string name="call_callflash_speed">闪光频率</string>
+
+</resources>

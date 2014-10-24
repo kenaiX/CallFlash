@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="@string/call_mainsetting">
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="mainservice_mode"
+            android:title="@string/call_service_mode" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/call_secondsetting">
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="callflash_mode"
+            android:summaryOn="@string/callflash_mode_summary"
+            android:title="@string/call_callflash_mode" />
+
+        <ListPreference
+            android:defaultValue="0"
+            android:dialogTitle="闪光频率"
+            android:entries="@array/callflash_speed_context"
+            android:entryValues="@array/callflash_speed_value"
+            android:key="callflash_speed"
+            android:title="@string/call_callflash_speed" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/call_other">
+        <PreferenceScreen
+            android:key="main_melody"
+            android:title="@string/main_melody" />
+        <PreferenceScreen
+            android:key="call_mainhelp"
+            android:title="@string/call_mainhelp" />
+        <PreferenceScreen
+            android:key="tuiguang"
+            android:summary="@string/main_zhichikenai_summary"
+            android:title="@string/main_zhichikenai" />
+        <PreferenceScreen
+            android:key="main_mail"
+            android:title="@string/main_mail" />
+        <PreferenceScreen
+            android:key="main_info"
+            android:summary="@string/main_info_summary"
+            android:title="@string/main_info" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
